@@ -39,5 +39,4 @@ setup(
     python_requires=">=3.7",
     license="Apache-2.0",
     license_files=["LICENSE"],
-    python_requires=">=3.0",    
 )
