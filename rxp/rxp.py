@@ -1,13 +1,11 @@
 import re
 import os
 import argparse
-import os
 import sys
 from pathlib import Path
 from rich.console import Console
 from rich_argparse import RichHelpFormatter, _lazy_rich as rr
 from typing import ClassVar
-# import rich_argparse._lazy_rich as rr
 import pkgutil
 if os.getenv('DEBUG') == '1':
     from pydebugger.debug import debug
