@@ -22,7 +22,7 @@ setup(
     packages=find_packages(),
     entry_points={
         "console_scripts": [
-            "rxp=rxp.rxp:usage",
+            "rxp=rxp.rxp:main",
         ],
     },
     install_requires=[
